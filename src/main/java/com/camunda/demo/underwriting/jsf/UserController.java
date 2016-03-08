@@ -9,7 +9,7 @@ import javax.servlet.http.HttpSession;
 import org.camunda.bpm.engine.ProcessEngine;
 import org.camunda.bpm.engine.identity.User;
 
-@SessionScoped
+@SessionScoped // Gilt solange wie eine HTTP Session Diese Scopes hier sind für Webanwendungen 
 @Named
 public class UserController implements Serializable {
 
